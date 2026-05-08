@@ -1,14 +1,15 @@
 // 🔧 Configuración de Firebase
 const firebaseConfig = {
-  apiKey: "TU_API_KEY",
-  authDomain: "TU_AUTH_DOMAIN",
-  databaseURL: "TU_DATABASE_URL",
-  projectId: "TU_PROJECT_ID",
-  storageBucket: "TU_STORAGE_BUCKET",
-  messagingSenderId: "TU_MESSAGING_SENDER_ID",
-  appId: "TU_APP_ID"
+  apiKey: "AIzaSyDxxxxxx...",              // tu clave real
+  authDomain: "pronosticos-mundial.firebaseapp.com",
+  databaseURL: "https://pronosticos-mundial-default-rtdb.firebaseio.com",
+  projectId: "pronosticos-mundial",
+  storageBucket: "pronosticos-mundial.appspot.com",
+  messagingSenderId: "1234567890",
+  appId: "1:1234567890:web:abcdef123456"
 };
 firebase.initializeApp(firebaseConfig);
+
 const db = firebase.database();
 const storage = firebase.storage();
 
