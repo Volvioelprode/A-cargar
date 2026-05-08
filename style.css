@@ -1,17 +1,106 @@
+/* 🎨 Estilos generales */
 body {
   font-family: Arial, sans-serif;
-  text-align: center;
   background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
 }
-h1 { color: #333; }
-#fixture { margin-top: 20px; }
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* 🔑 Login */
+#login {
+  margin-bottom: 30px;
+  padding: 15px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+#login input {
+  margin: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#login button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#login button:hover {
+  background: #219150;
+}
+
+/* ⚽ Fixture */
+#fixture {
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: left;
+}
+
 .partido {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
-.partido img {
-  width: 40px;
-  height: 25px;
-  margin: 0 10px;
+
+.partido button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.partido button:hover {
+  background: #2980b9;
+}
+
+.partido input {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* 🏆 Ranking */
+#ranking {
+  margin-top: 30px;
+  padding: 15px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+#ranking h2 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.usuario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 0;
+}
+
+.usuario img {
+  margin-right: 10px;
+  border: 2px solid #3498db;
 }
