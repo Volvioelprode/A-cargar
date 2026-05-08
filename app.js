@@ -1,17 +1,16 @@
-// 🔧 Configuración de Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyDxxxxxx...",              // tu clave real
-  authDomain: "pronosticos-mundial.firebaseapp.com",
-  databaseURL: "https://pronosticos-mundial-default-rtdb.firebaseio.com",
-  projectId: "pronosticos-mundial",
-  storageBucket: "pronosticos-mundial.appspot.com",
-  messagingSenderId: "1234567890",
-  appId: "1:1234567890:web:abcdef123456"
+  apiKey: "AIzaSyAfhhn1IULW1Qz82a8bM_mkymsuIAcLxDc",
+  authDomain: "prode-4b42f.firebaseapp.com",
+  projectId: "prode-4b42f",
+  storageBucket: "prode-4b42f.firebasestorage.app",
+  messagingSenderId: "698582469993",
+  appId: "1:698582469993:web:9ffd9cb6ec9249d9a3c1f8",
+  measurementId: "G-HWJT6B2NSQ"
 };
-firebase.initializeApp(firebaseConfig);
 
-const db = firebase.database();
-const storage = firebase.storage();
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 // 🌍 Diccionario de equipos → archivo (48 banderas)
 const equipos = {
